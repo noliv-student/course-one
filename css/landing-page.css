@@ -24,3 +24,31 @@
 #introduction {
     text-align: center;
 }
+
+#introduction div {
+    border: 2px solid antiquewhite;
+    border-radius: 50px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.content-list,
+.content-about {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.content-list li{
+    list-style-type: disclosure-closed;
+}
+
+#introduction p {
+    line-height: 1.5;
+}
+
+.redirect {
+    color: aquamarine;
+}
