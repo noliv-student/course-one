@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(47, 45, 43);
+    color: antiquewhite;
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation style */
+.nav-list {
+    text-align: center;
+}
+
+.nav-list > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#current-page {
+    color: aquamarine;
+}
+
+nav ul li a:visited {
+    color: #849de6;
+}
+
+nav ul li a:hover,
+#current-page:hover {
+    color: green;
+}
+
+nav ul li a:active,
+#current-page:active {
+    color: yellow;
+}
+
+
+

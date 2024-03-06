@@ -3,65 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tv Shows Recommendations</title>
+    <title>My Hometown</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./main.css" >
+    <link rel="stylesheet" href="./css/landing-page.css" >
 </head>
 <body>
+    <!-- Introduction to the webpage -->
     <header>
-        <h1 id="title">TV Shows Recommendations</h1>
+        <h1 id="title" style="font-family: 'Times New Roman', Times, serif;">MY HOMETOWN</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#title">Home</a></li>
-            <li><a href="#drama">Drama</a></li>
-            <li><a href="#comedy">Comedy</a></li>
-            <li><a href="#fantasy">Fantasy</a></li>
-            <li><a href="#horror">Horror</a></li>
-            <li><a href="#miniseries">Miniseries</a></li>
+    <!-- Main Navigation to webpage content sections -->
+    <nav aria-label="main navigation">
+        <ul class="nav-list">
+            <li><a href="#" id="current-page">Home</a></li>
+            <li><a href="./pages/history.html">History</a></li>
+            <li><a href="./pages/curiosities.html">Curiosities</a></li>
+            <li><a href="./pages/sightseeing.html">Sightseeing</a></li>
         </ul>
     </nav>
+    
     <main>
-        <section id="drama">
+        <section id="banner">
+            <div class="banner-img"></div>
+            <h2 class="banner-title">BRASILIA</h2>
+        </section>
+        
+        <section id="introduction">
             <div>
-                <h2>Succession</h2>
-                <img src="./assets/img/succession.jpg" alt="Succession Poster">
-                <p>Score: 5 stars</p>
+                <h2>A Little Bit About Me</h2>
                 <p>
-                    "
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    "
+                    Hello! My name is Natalia and I was borned and raised in Brasilia, the capital of Brazil, 
+                    and I would like to showcase some interesting facts about my Hometown in this webpage.
+                    Hope you like it!
+                </p>
+            </div>
+            <div>
+                <h2>Content</h2>
+                <p>
+                    You can know more about my city history clicking <a href="./pages/history.html">here</a>. 
+                    It is actually fascinating how fast it was built.
+                </p>
+                <p>
+                    If you are looking foward to explore the place, check the <a href="./pages/sightseeing.html">sighseeing ta</a>. 
+                    I selected the most famous and entertaining places that you cannot miss.  
                 </p>
             </div>
         </section>
-        <section id="comedy">
-            <div>
-                <h2>Modern Family</h2>
-                <img src="./assets/img/modern-family.jpg" alt="Modern Family Poster">
-                <p>Score: 5 stars</p>
-                <p>
-                    "
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    "
-                </p>
-            </div>
-        </section>
+          
     </main>
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="#top-3-comedy">TOP 3 Comedy</a></li>
-                <li><a href="#top-3-drama">TOP 3 Dramas</a></li>
-                <li><a href="#top-3-fantasy">TOP 3Fantasy</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <!-- Page footer -->
     <footer>
-        &copy; 2024 My Tv Shows Recommendations <a href="#policy">Privacy Policy</a>
+        <p>Created by Natalia</p>
+        <p>Images were taken from unsplash and wikipedia</p>
+        <p>&copy; 2024 My Hometown </p>
     </footer>
 </body>
 </html>
