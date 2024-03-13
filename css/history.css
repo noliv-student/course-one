@@ -1,0 +1,60 @@
+/* Image Style */
+figure{
+    border: 2px solid white;
+    display: inline-block;
+    width: 200px;
+    height: fit-content;
+}
+
+figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+figcaption {
+    border-top: 2px solid white;
+    background-color: #211e1e;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.float-right{
+    float: right;
+    margin-left: 15px;
+}
+
+.float-left{
+    float: left;
+    margin-right: 15px;
+}
+
+/* Section Style */
+section {
+    width: 80%;
+    margin: 25px auto;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+#inauguration-section figure {
+    margin-bottom: 50px;
+}
+
+.no-float {
+    clear: both;
+}
+
+.curiosity-wrapper h3{
+    color: aquamarine;
+    border-bottom: 2px solid aquamarine;
+    font-weight: 700;
+    display: inline;
+}
+
+.curiosity-wrapper,
+.curiosity-wrapper p {
+    margin-top: 10px;
+}
