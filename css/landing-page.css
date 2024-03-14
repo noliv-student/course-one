@@ -41,7 +41,7 @@
     text-align: left;
 }
 
-.content-list li{
+.content-list li {
     list-style-type: disclosure-closed;
 }
 
@@ -49,6 +49,7 @@
     line-height: 1.5;
 }
 
-.redirect {
+.redirect,
+.redirect:visited {
     color: aquamarine;
 }

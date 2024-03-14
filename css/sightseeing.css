@@ -1,5 +1,5 @@
 /* Secondary Navigation*/
-#page-nav{
+#page-nav {
     position: sticky;
     top: 0;
 }
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.secondary-nav-list li{
+.secondary-nav-list li {
     display: inline-block;
     padding: 10px;
 }
@@ -56,6 +56,27 @@
 }
 
 .category-card .card-content {
-    overflow-y: scroll;
+    overflow-y: auto;
     margin-top: 5px;
+}
+
+#malls h3 {
+    order: 1;
+    align-self: flex-start;
+}
+
+#malls .prices {
+    order: 2;
+    align-self: flex-start;
+}
+
+#malls img {
+    order: 3;
+    align-self: flex-start;
+}
+
+#malls .card-content {
+    order: 4;
+    align-self: flex-start;
+    text-align: left;
 }

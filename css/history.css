@@ -1,5 +1,5 @@
 /* Image Style */
-figure{
+figure {
     border: 2px solid white;
     display: inline-block;
     width: 200px;
@@ -19,12 +19,12 @@ figcaption {
     font-size: 14px;
 }
 
-.float-right{
+.float-right {
     float: right;
     margin-left: 15px;
 }
 
-.float-left{
+.float-left {
     float: left;
     margin-right: 15px;
 }
@@ -47,7 +47,7 @@ section h2 {
     clear: both;
 }
 
-.curiosity-wrapper h3{
+.curiosity-wrapper h3 {
     color: aquamarine;
     border-bottom: 2px solid aquamarine;
     font-weight: 700;
